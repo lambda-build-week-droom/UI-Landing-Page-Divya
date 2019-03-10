@@ -1,19 +1,28 @@
-body {
-  margin: 0;
+html {
+  font-size: 16px;
+
+  body {
+    margin: 0;
+  }
 }
 
+// Banner & CTA
 .banner {
   background-size: cover;
   background-position: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url('../../images/banner.jpg');
   height: 600px;
+  color: white;
 
   header {
     .flex(row, space-between);
     .header-right {
       .flex(row, space-evenly);
-      width: 30%;
+      width: 20%;
+      a {
+        .anchor(white);
+      }
     }
   }
 
@@ -21,14 +30,33 @@ body {
     .flex(column, center);
     h1 {
       text-transform: capitalize;
+      font-size: 3rem;
     }
+    height: 70%;
+  }
+
+  button {
+    .button();
   }
 }
 
+// How It Works
+
+// Footer
+
 // Mixins
-.flex(@dir, @justify, @align:center) {
+.flex(@dir, @justify, @align: center) {
   display: flex;
   flex-direction: @dir;
   justify-content: @justify;
   align-items: @align;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.anchor(@color) {
+  text-decoration: none;
+  color: @color;
 }
