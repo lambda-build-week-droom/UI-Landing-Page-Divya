@@ -1,15 +1,27 @@
-header {
-  .flex(row, space-between);
-  .header-right {
-    .flex(row, space-evenly);
-    width: 30%;
-  }
+body {
+  margin: 0;
 }
 
-.cta {
-  .flex(column, center);
-  h1 {
-    text-transform: capitalize;
+.banner {
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../../images/banner.jpg');
+  height: 600px;
+
+  header {
+    .flex(row, space-between);
+    .header-right {
+      .flex(row, space-evenly);
+      width: 30%;
+    }
+  }
+
+  .cta {
+    .flex(column, center);
+    h1 {
+      text-transform: capitalize;
+    }
   }
 }
 
