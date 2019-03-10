@@ -11,3 +11,12 @@ header .header-right {
   align-items: center;
   width: 30%;
 }
+.cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cta h1 {
+  text-transform: capitalize;
+}
