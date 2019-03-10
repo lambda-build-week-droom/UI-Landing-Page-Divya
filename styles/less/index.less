@@ -1,0 +1,15 @@
+header {
+  .flex(row, space-between);
+  .header-right {
+    .flex(row, space-evenly);
+    width: 30%;
+  }
+}
+
+// Mixins
+.flex(@dir, @justify, @align:center) {
+  display: flex;
+  flex-direction: @dir;
+  justify-content: @justify;
+  align-items: @align;
+}
