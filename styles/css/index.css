@@ -17,14 +17,14 @@ html body {
   justify-content: space-between;
   align-items: center;
 }
-.banner header .header-right {
+.banner header div {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   width: 20%;
 }
-.banner header .header-right a {
+.banner header div a {
   text-decoration: none;
   color: white;
 }
@@ -36,11 +36,38 @@ html body {
   height: 70%;
 }
 .banner .cta h1 {
-  text-transform: capitalize;
   font-size: 3rem;
 }
 .banner button {
   cursor: pointer;
+}
+.how-it-works {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+.how-it-works div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.how-it-works div section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+}
+.how-it-works div section img {
+  height: 150px;
+  width: 150px;
 }
 .button {
   cursor: pointer;
