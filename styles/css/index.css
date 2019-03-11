@@ -17,6 +17,11 @@ html body {
   justify-content: space-between;
   align-items: center;
 }
+.banner header h1 {
+  font-family: 'Yellowtail', cursive;
+  font-weight: 600;
+  font-size: 2rem;
+}
 .banner header div {
   display: flex;
   flex-direction: row;
@@ -27,6 +32,9 @@ html body {
 .banner header div a {
   text-decoration: none;
   color: white;
+  font-family: 'Open Sans';
+  font-weight: sans-serif;
+  font-size: 1rem;
 }
 .banner .cta {
   display: flex;
@@ -36,7 +44,10 @@ html body {
   height: 70%;
 }
 .banner .cta h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
   font-size: 3rem;
+  letter-spacing: 1.5;
 }
 .banner button {
   cursor: pointer;
@@ -47,6 +58,11 @@ html body {
   justify-content: center;
   align-items: center;
   height: 700px;
+}
+.how-it-works h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 2rem;
 }
 .how-it-works div {
   display: flex;
@@ -65,6 +81,16 @@ html body {
   margin: 20px;
   padding: 20px;
 }
+.how-it-works div section h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+.how-it-works div section p {
+  font-family: 'Open Sans';
+  font-weight: sans-serif;
+  font-size: 1rem;
+}
 .how-it-works div section img {
   height: 150px;
   width: 150px;
@@ -76,6 +102,16 @@ footer {
   align-items: center;
   height: 400px;
   border-top: 1px solid black;
+}
+footer h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+footer p {
+  font-family: 'Open Sans';
+  font-weight: sans-serif;
+  font-size: 1rem;
 }
 .button {
   cursor: pointer;
