@@ -1,0 +1,82 @@
+html {
+  font-size: 16px;
+}
+html body {
+  margin: 0;
+}
+.banner {
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../images/banner.jpg');
+  height: 700px;
+  color: white;
+}
+.banner header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner header div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 20%;
+}
+.banner header div a {
+  text-decoration: none;
+  color: white;
+}
+.banner .cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+}
+.banner .cta h1 {
+  font-size: 3rem;
+}
+.banner button {
+  cursor: pointer;
+}
+.how-it-works {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+}
+.how-it-works div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.how-it-works div section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+}
+.how-it-works div section img {
+  height: 150px;
+  width: 150px;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 400px;
+  border-top: 1px solid black;
+}
+.button {
+  cursor: pointer;
+}

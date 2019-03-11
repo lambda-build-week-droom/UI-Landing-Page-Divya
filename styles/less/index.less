@@ -1,0 +1,91 @@
+html {
+  font-size: 16px;
+
+  body {
+    margin: 0;
+  }
+}
+
+// Banner & CTA
+.banner {
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../../images/banner.jpg');
+  height: 700px;
+  color: white;
+
+  header {
+    .flex(row, space-between);
+
+    div {
+      .flex(row, space-evenly);
+      width: 20%;
+
+      a {
+        .anchor(white);
+      }
+    }
+  }
+
+  .cta {
+    .flex(column, center);
+    height: 70%;
+
+    h1 {
+      font-size: 3rem;
+    }
+  }
+
+  button {
+    .button();
+  }
+}
+
+// How It Works
+.how-it-works {
+  .flex(column, center);
+  height: 700px;
+
+  div {
+    .flex(row, center);
+
+    section {
+      .flex(column, space-between);
+      border: 1px solid black;
+      height: 300px;
+      width: 300px;
+      margin: 20px;
+      padding: 20px;
+
+      img {
+        height: 150px;
+        width: 150px;
+      }
+    }
+  }
+}
+
+// Footer
+footer {
+  .flex(row, space-evenly);
+  height: 400px;
+  border-top: 1px solid black;
+}
+
+// Mixins
+.flex(@dir, @justify, @align: center) {
+  display: flex;
+  flex-direction: @dir;
+  justify-content: @justify;
+  align-items: @align;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.anchor(@color) {
+  text-decoration: none;
+  color: @color;
+}
