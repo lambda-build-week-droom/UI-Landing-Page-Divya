@@ -1,5 +1,6 @@
 html {
   font-size: 16px;
+
   body {
     margin: 0;
   }
@@ -9,7 +10,7 @@ html {
 .banner {
   background-size: cover;
   background-position: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url('../../images/banner.jpg');
   height: 700px;
   color: white;
@@ -37,13 +38,20 @@ html {
     height: 70%;
 
     h1 {
-      .font('Roboto', sans-serif; 900; 3rem);
+      .font('Roboto', sans-serif; 900; 3.5rem);
       letter-spacing: 1.5;
     }
-  }
 
-  button {
-    .button();
+    .signup {
+      .button(200px, 50px, 30px);
+      background-color: transparent;
+      z-index: 1;
+      .font('Open Sans', sans-serif; 900);
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: @accent;
+      border: 2px solid @accent;
+    }
   }
 }
 
@@ -86,15 +94,16 @@ html {
 // Footer
 footer {
   .flex(row, space-evenly);
+  height: 400px;
+  border-top: 1px solid black;
+
   h1 {
     .font('Roboto', sans-serif; 600; 1.25rem);
   }
+
   p {
     .font('Open Sans', sans-serif);
   }
-
-  height: 400px;
-  border-top: 1px solid black;
 }
 
 // Mixins
@@ -111,8 +120,11 @@ footer {
   align-items: @align;
 }
 
-.button {
+.button(@width, @height, @radius) {
   cursor: pointer;
+  width: @width;
+  height: @height;
+  border-radius: @radius;
 }
 
 .anchor(@color) {
@@ -123,3 +135,8 @@ footer {
 // Variables
 @mobile: ~'(max-width: 500px)';
 @tablet: ~'(max-width: 800px)';
+// @darkblue: #1B3B6F;
+// @lightblue: #3A7CA5;
+@lightgrey: #d9dcd6;
+@seablue: #c7d7e0;
+@accent: #5bc0be;
