@@ -54,6 +54,9 @@ html body {
   letter-spacing: 1px;
   transition: background-color 0.2s ease-in;
 }
+.banner header div .login:focus {
+  outline: 0;
+}
 .banner header div .login:hover {
   background-color: #5bc0be;
   color: white;
@@ -87,6 +90,9 @@ html body {
   background-color: transparent;
   z-index: 2;
   border: 3px solid #5bc0be;
+}
+.banner .cta .signup:focus {
+  outline: 0;
 }
 .banner .cta .signup:hover {
   background-color: #5bc0be;
