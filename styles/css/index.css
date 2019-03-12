@@ -30,29 +30,29 @@ html body {
   color: white;
   text-decoration: none;
 }
-.banner header div {
+.banner header .header-right {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   width: 20%;
 }
-.banner header div a {
+.banner header .header-right a {
   text-decoration: none;
   color: white;
   font-family: 'Open Sans';
   font-weight: sans-serif;
   font-size: 1rem;
 }
-.banner header div a :any-link {
+.banner header .header-right a :any-link {
   color: white;
   text-decoration: none;
 }
-.banner header div a:hover {
+.banner header .header-right a:hover {
   padding-bottom: 10px;
   border-bottom: 1px solid #5bc0be;
 }
-.banner header div .login {
+.banner header .header-right .login {
   font-family: 'Open Sans', sans-serif;
   font-weight: 900;
   font-size: 0.8rem;
@@ -67,10 +67,10 @@ html body {
   background-color: transparent;
   transition: background-color 0.2s ease-in;
 }
-.banner header div .login:focus {
+.banner header .header-right .login:focus {
   outline: 0;
 }
-.banner header div .login:hover {
+.banner header .header-right .login:hover {
   background-color: rgba(91, 192, 190, 0.3);
 }
 .banner .cta {
@@ -85,6 +85,7 @@ html body {
   font-weight: 900;
   font-size: 3.5rem;
   letter-spacing: 1.5;
+  text-align: center;
 }
 .banner .cta .signup {
   font-family: 'Open Sans', sans-serif;
@@ -124,6 +125,14 @@ html body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 800px) {
+  #how-it-works .how-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 #how-it-works .how-cards section {
   display: flex;

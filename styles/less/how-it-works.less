@@ -8,6 +8,9 @@
 
   .how-cards {
     .flex(row, center);
+    @media @tablet {
+      .flex(column, center);
+    }
 
     section {
       .flex(column, space-between);
