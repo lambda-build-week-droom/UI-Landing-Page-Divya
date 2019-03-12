@@ -21,7 +21,7 @@ html body {
 .banner header #logo {
   font-family: 'Yellowtail', cursive;
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 2.75rem;
   text-decoration: none;
   color: white;
   margin-left: 20px;
@@ -33,7 +33,7 @@ html body {
 .banner header .header-right {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   width: 20%;
 }
@@ -114,6 +114,12 @@ html body {
   justify-content: center;
   align-items: center;
   height: 700px;
+  width: 100%;
+}
+@media (max-width: 1300px) {
+  #how-it-works {
+    height: auto;
+  }
 }
 #how-it-works h1 {
   font-family: 'Roboto', sans-serif;
@@ -126,12 +132,9 @@ html body {
   justify-content: center;
   align-items: center;
 }
-@media (max-width: 800px) {
+@media (max-width: 1300px) {
   #how-it-works .how-cards {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
   }
 }
 #how-it-works .how-cards section {
@@ -139,12 +142,12 @@ html body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0px 0px 15px 0px lightgrey;
-  border-radius: 30px;
-  height: 300px;
-  width: 300px;
+  height: 350px;
+  width: 350px;
   margin: 20px;
   padding: 20px;
+  box-shadow: 0px 0px 15px 0px lightgrey;
+  border-radius: 30px;
   transition: background-color 0.3s ease-in;
 }
 #how-it-works .how-cards section:hover {
@@ -154,11 +157,13 @@ html body {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 1.25rem;
+  text-align: center;
 }
 #how-it-works .how-cards section p {
   font-family: 'Open Sans';
   font-weight: sans-serif;
   font-size: 1rem;
+  text-align: center;
 }
 #how-it-works .how-cards section img {
   height: 150px;
