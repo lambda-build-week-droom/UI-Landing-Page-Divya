@@ -1,5 +1,6 @@
 html {
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 html body {
   margin: 0;
@@ -98,25 +99,25 @@ html body {
   background-color: #5bc0be;
   color: white;
 }
-.how-it-works {
+#how-it-works {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 700px;
 }
-.how-it-works h1 {
+#how-it-works h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
   font-size: 2rem;
 }
-.how-it-works .how-cards {
+#how-it-works .how-cards {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
-.how-it-works .how-cards section {
+#how-it-works .how-cards section {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -128,17 +129,17 @@ html body {
   margin: 20px;
   padding: 20px;
 }
-.how-it-works .how-cards section h1 {
+#how-it-works .how-cards section h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 1.25rem;
 }
-.how-it-works .how-cards section p {
+#how-it-works .how-cards section p {
   font-family: 'Open Sans';
   font-weight: sans-serif;
   font-size: 1rem;
 }
-.how-it-works .how-cards section img {
+#how-it-works .how-cards section img {
   height: 150px;
   width: 150px;
 }
