@@ -1,0 +1,39 @@
+#how-it-works {
+  .flex(column, center);
+  height: 700px;
+
+  h1 {
+    .font('Roboto', sans-serif; 900; 2rem);
+  }
+
+  .how-cards {
+    .flex(row, center);
+
+    section {
+      .flex(column, space-between);
+      box-shadow: 0px 0px 15px 0px @secondary;
+      border-radius: 30px;
+      height: 300px;
+      width: 300px;
+      margin: 20px;
+      padding: 20px;
+      transition: background-color 0.3s ease-in;
+      &:hover {
+        background-color: @secondary;
+      }
+
+      h1 {
+        .font('Roboto', sans-serif; 500; 1.25rem);
+      }
+
+      p {
+        .font('Open Sans', sans-serif);
+      }
+
+      img {
+        height: 150px;
+        width: 150px;
+      }
+    }
+  }
+}

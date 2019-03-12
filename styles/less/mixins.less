@@ -1,0 +1,31 @@
+.font(@family: 'Open Sans', sans-serif; @weight: 400; @size: 1rem) {
+  font-family: @family;
+  font-weight: @weight;
+  font-size: @size;
+}
+
+.flex(@dir, @justify, @align: center) {
+  display: flex;
+  flex-direction: @dir;
+  justify-content: @justify;
+  align-items: @align;
+}
+
+.button(@width, @height, @spacing, @radius: 30px, @color: @accent) {
+  width: @width;
+  height: @height;
+  letter-spacing: @spacing;
+  border-radius: @radius;
+  color: @color;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in;
+  &:focus {
+    outline: 0;
+  }
+}
+
+.anchor(@color: @primary) {
+  text-decoration: none;
+  color: @color;
+}
