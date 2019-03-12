@@ -10,7 +10,6 @@ html body {
   background-position: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../../images/banner.jpg');
   height: 700px;
-  color: white;
 }
 .banner header {
   display: flex;
@@ -22,6 +21,7 @@ html body {
   font-family: 'Yellowtail', cursive;
   font-weight: 600;
   font-size: 2rem;
+  color: white;
   margin-left: 20px;
 }
 .banner header div {
@@ -33,10 +33,10 @@ html body {
 }
 .banner header div a {
   text-decoration: none;
-  color: white;
   font-family: 'Open Sans';
   font-weight: sans-serif;
   font-size: 1rem;
+  color: white;
 }
 .banner header div a:hover {
   padding-bottom: 10px;
@@ -44,24 +44,24 @@ html body {
 }
 .banner header div .login {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 500;
+  font-weight: 900;
   font-size: 0.8rem;
   width: 100px;
   height: 40px;
   letter-spacing: 1px;
   border-radius: 30px;
-  color: #5bc0be;
+  border: 3px solid #5bc0be;
+  color: white;
   text-transform: uppercase;
   cursor: pointer;
+  background-color: transparent;
   transition: background-color 0.2s ease-in;
 }
 .banner header div .login:focus {
   outline: 0;
 }
 .banner header div .login:hover {
-  background-color: #5bc0be;
-  color: white;
-  border: 1px solid #5bc0be;
+  background-color: rgba(91, 192, 190, 0.3);
 }
 .banner .cta {
   display: flex;
@@ -74,29 +74,29 @@ html body {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
   font-size: 3.5rem;
+  color: white;
   letter-spacing: 1.5;
 }
 .banner .cta .signup {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 1rem;
   width: 200px;
   height: 50px;
   letter-spacing: 2px;
   border-radius: 30px;
-  color: #5bc0be;
+  border: 3px solid #5bc0be;
+  color: white;
   text-transform: uppercase;
   cursor: pointer;
+  background-color: #5bc0be;
   transition: background-color 0.2s ease-in;
-  background-color: transparent;
-  border: 3px solid #5bc0be;
 }
 .banner .cta .signup:focus {
   outline: 0;
 }
 .banner .cta .signup:hover {
-  background-color: #5bc0be;
-  color: white;
+  background-color: rgba(91, 192, 190, 0.3);
 }
 #how-it-works {
   display: flex;
@@ -109,6 +109,7 @@ html body {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
   font-size: 2rem;
+  color: white;
 }
 #how-it-works .how-cards {
   display: flex;
@@ -136,11 +137,13 @@ html body {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 1.25rem;
+  color: white;
 }
 #how-it-works .how-cards section p {
   font-family: 'Open Sans';
   font-weight: sans-serif;
   font-size: 1rem;
+  color: white;
 }
 #how-it-works .how-cards section img {
   height: 150px;
@@ -167,11 +170,13 @@ footer h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 600;
   font-size: 1.25rem;
+  color: white;
   letter-spacing: 1px;
 }
 footer p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;
   font-size: 0.9rem;
+  color: white;
   color: lightgrey;
 }
