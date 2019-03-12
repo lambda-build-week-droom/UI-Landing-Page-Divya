@@ -18,7 +18,15 @@
     .header-right {
       .flex(row, space-around);
       width: 20%;
-
+      @media @desktop {
+        width: 30%;
+      }
+      @media @tablet {
+        width: 50%;
+      }
+      @media @mobile {
+        width: 65%;
+      }
       a {
         .anchor(@primary);
         .font('Open Sans', sans-serif);
