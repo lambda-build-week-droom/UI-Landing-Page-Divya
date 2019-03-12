@@ -46,13 +46,13 @@ html body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 500;
   font-size: 0.8rem;
-  cursor: pointer;
   width: 100px;
   height: 40px;
-  border-radius: 30px;
-  text-transform: uppercase;
-  color: #5bc0be;
   letter-spacing: 1px;
+  border-radius: 30px;
+  color: #5bc0be;
+  text-transform: uppercase;
+  cursor: pointer;
   transition: background-color 0.2s ease-in;
 }
 .banner header div .login:focus {
@@ -80,16 +80,15 @@ html body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 900;
   font-size: 1rem;
-  cursor: pointer;
   width: 200px;
   height: 50px;
-  border-radius: 30px;
-  text-transform: uppercase;
-  color: #5bc0be;
   letter-spacing: 2px;
+  border-radius: 30px;
+  color: #5bc0be;
+  text-transform: uppercase;
+  cursor: pointer;
   transition: background-color 0.2s ease-in;
   background-color: transparent;
-  z-index: 2;
   border: 3px solid #5bc0be;
 }
 .banner .cta .signup:focus {
@@ -122,12 +121,16 @@ html body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid lightgrey;
+  box-shadow: 0px 0px 15px 0px lightgrey;
   border-radius: 30px;
   height: 300px;
   width: 300px;
   margin: 20px;
   padding: 20px;
+  transition: background-color 0.3s ease-in;
+}
+#how-it-works .how-cards section:hover {
+  background-color: lightgrey;
 }
 #how-it-works .how-cards section h1 {
   font-family: 'Roboto', sans-serif;
