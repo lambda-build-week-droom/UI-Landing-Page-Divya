@@ -99,51 +99,60 @@ html body {
   font-weight: 900;
   font-size: 2rem;
 }
-.how-it-works div {
+.how-it-works .how-cards {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
-.how-it-works div section {
+.how-it-works .how-cards section {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid black;
+  border: 1px solid lightgrey;
+  border-radius: 30px;
   height: 300px;
   width: 300px;
   margin: 20px;
   padding: 20px;
 }
-.how-it-works div section h1 {
+.how-it-works .how-cards section h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 1.25rem;
 }
-.how-it-works div section p {
+.how-it-works .how-cards section p {
   font-family: 'Open Sans';
   font-weight: sans-serif;
   font-size: 1rem;
 }
-.how-it-works div section img {
+.how-it-works .how-cards section img {
   height: 150px;
   width: 150px;
 }
 footer {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   height: 400px;
-  border-top: 1px solid black;
   color: white;
   background-color: #2e4053;
+}
+footer .footer-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 70%;
+  height: 70%;
 }
 footer h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 600;
   font-size: 1.25rem;
+  letter-spacing: 1px;
 }
 footer p {
   font-family: 'Open Sans', sans-serif;
