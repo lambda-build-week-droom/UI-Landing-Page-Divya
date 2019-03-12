@@ -3,17 +3,18 @@
     <meta charset="utf-8" />
     <meta name="author" content="Divya Nair" />
     <!-- Title for naming tab and bookmark -->
-    <title>Droom | Job Talent Matcher</title>
+    <title>Droom | Professionals Matcher</title>
     <!-- Description to be displayed on web browser search result -->
-    <meta
-      name="description"
-      content="Droom | Job Talent Matcher: Swipe. Interview. Hire."
-    />
+    <meta name="description" content="Droom | Professionals Matcher." />
     <!-- Media Query -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- CSS -->
     <link rel="stylesheet" href="styles/css/index.css" />
     <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Yellowtail"
+      rel="stylesheet"
+    />
     <!-- Social Media Logos -->
     <!-- Favicon -->
   </head>
@@ -22,77 +23,81 @@
     <!-- Banner and CTA -->
     <section class="banner">
       <header>
-        <h1>Droom</h1>
+        <h1 id="logo">Droom</h1>
         <div>
-          <a href="#">How it Works</a>
-          <button type="button">Log In</button>
+          <a href="#how-it-works">How it Works</a>
+          <button type="button" class="login">Log In</button>
         </div>
       </header>
 
       <section class="cta">
-        <h1>Find your dream team with one swipe</h1>
-        <button type="button">Sign Up</button>
+        <h1>Find your dream team in one swipe</h1>
+        <button type="button" class="signup">Sign Up</button>
       </section>
     </section>
 
     <!-- How Droom Works -->
-    <section class="how-it-works">
+    <section id="how-it-works">
       <h1>How Droom Works</h1>
 
-      <div>
+      <section class="how-cards">
         <section>
-          <h1>1. Search and get matched.</h1>
+          <h1>1. Search and get matched</h1>
           <img src="images/skills-list.png" alt="Various product logos" />
           <p>
-            Search by your interests and get matched with those who have similar
-            interests.
+            Search by your interests and get matched with those who are
+            interested in you.
           </p>
         </section>
 
         <section>
-          <h1>2. Decide if you like your match.</h1>
+          <h1>2. Decide if you like your match</h1>
           <img
             src="images/swipe-profiles.png"
             alt="Arrows swiping right or left on a device"
           />
           <p>
             Swipe to the right to move forward with a match, or swipe to the
-            left to decline.
+            left to pass.
           </p>
         </section>
 
         <section>
-          <h1>3. Interview and hire.</h1>
+          <h1>3. Meet and socialize</h1>
           <img
             src="images/handshake.png"
             alt="Two hands shaking over a contract"
           />
           <p>
-            Interview who you like and close the deal.
+            Meet with your match, expand your network or interview for a job.
           </p>
         </section>
-      </div>
+      </section>
     </section>
 
     <!-- Footer -->
     <footer>
-      <section>
-        <h1>Account</h1>
-        <p>Log In</p>
-        <p>Sign Up</p>
+      <section class="footer-cards">
+        <section>
+          <h1>Account</h1>
+          <p>Log In</p>
+          <p>Sign Up</p>
+        </section>
+
+        <section>
+          <h1>Company</h1>
+          <p>Our Team</p>
+          <p>Support</p>
+        </section>
+
+        <section>
+          <h1>Terms</h1>
+          <p>Legal</p>
+          <p>Privacy</p>
+        </section>
       </section>
 
-      <section>
-        <h1>Company</h1>
-        <p>Our Team</p>
-        <p>Support</p>
-      </section>
-
-      <section>
-        <h1>Terms</h1>
-        <p>Legal</p>
-        <p>Privacy</p>
-      </section>
+      <p>&copy; Droom, Inc.</p>
     </footer>
   </body>
 </html>

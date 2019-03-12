@@ -1,14 +1,16 @@
 # UI-Landing-Page-Divya
 
+> Landing page deployment link: https://droom.netlify.com/
+
 # Proposal
 
 - What problem does your app solve?
 
-> As of now, it takes too long for one professional to hear back from another professional once they initiate an interest to connect with the other. Sometimes, that response never comes because it is not as simple as a button click to decline an interest. For example, say, you messaged a professional on LinkedIn with your interest. That professional would respond to your message only if they also have an interest in you. However, if they are not interested in you, you might never hear back from them because they don't want to write back a message to you saying so.
+> As of now, it takes too long for one professional to hear back from another professional on whether or not they are interested in connecting once a request has been sent to them. Sometimes, that response never comes because it is not as simple as a button click to respond to a request. For example, say, you messaged a professional on LinkedIn with your interest. That professional would respond to your message only if they also have an interest in you. However, if they are not interested in you, you might never hear back from them because they don't want to write back a message to you saying so.
 
 - Be as specific as possible; how does your app solve the problem?
 
-> Droom is a revolutionalized LinkedIn app where you can swipe to the right to request to connect with a professional with the same interests as you, or you can swipe to the left if you don't want to connect with them or to gently decline their request to connect with you. Thus, drawing inspiration to match with each other from Tinder.
+> Droom is a revolutionalized LinkedIn app where you can swipe to the right to request to connect with a professional with the same interests as you, or you can swipe to the left if you want to pass on them or to gently decline their request to connect with you. Thus, drawing inspiration to match with each other from Tinder.
 
 - What is the mission statement?
 
@@ -63,7 +65,7 @@
 
 - Who is your target audience? Be specific.
 
-> This is a C2C app, where any professional from any industry can find and connect with another professional.
+> This app can be used by any person or any company. For example, a person might want to be matched with a company for a job interview, a company might want to be matched with a person for a role, two people might want to get matched for expanding their network, two companies might want to get matched for a business proposal.
 
 - What feedback have you gotten from potential users?
 
