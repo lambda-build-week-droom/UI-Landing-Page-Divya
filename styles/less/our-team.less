@@ -1,5 +1,8 @@
 .our-team {
   .flex(row, space-around);
+  @media @desktop {
+    flex-wrap: wrap;
+  }
 
   section {
     .flex(column, center);

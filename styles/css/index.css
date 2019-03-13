@@ -42,7 +42,7 @@ html body {
   align-items: center;
   width: 20%;
 }
-@media (max-width: 1300px) {
+@media (max-width: 1500px) {
   .banner header .header-right {
     width: 30%;
   }
@@ -136,7 +136,7 @@ html body {
   height: 700px;
   width: 100%;
 }
-@media (max-width: 1300px) {
+@media (max-width: 1500px) {
   #how-it-works {
     height: auto;
   }
@@ -152,7 +152,7 @@ html body {
   justify-content: center;
   align-items: center;
 }
-@media (max-width: 1300px) {
+@media (max-width: 1500px) {
   #how-it-works .how-cards {
     flex-wrap: wrap;
   }
@@ -194,6 +194,11 @@ html body {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+}
+@media (max-width: 1500px) {
+  .our-team {
+    flex-wrap: wrap;
+  }
 }
 .our-team section {
   display: flex;
