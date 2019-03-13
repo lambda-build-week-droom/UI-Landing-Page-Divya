@@ -9,26 +9,26 @@ footer {
     height: 70%;
     min-width: 70%;
     @media @tablet {
-      min-width: 90%;
+      width: 90%;
     }
 
     section {
       height: 70%;
-    }
 
-    h1 {
-      .font('Roboto', sans-serif; 600; 1.25rem);
-      letter-spacing: 1px;
-    }
+      h1 {
+        .font('Roboto', sans-serif; 600; 1.25rem);
+        letter-spacing: 1px;
+      }
 
-    a {
-      display: block;
-      .anchor();
-      .font('Open Sans', sans-serif; 100; 0.9rem);
-      margin: 1em 0;
-      color: @secondary;
-      &:hover {
-        color: @primary;
+      a {
+        display: block;
+        .anchor();
+        .font('Open Sans', sans-serif; 100; 0.9rem);
+        margin: 1em 0;
+        color: @secondary;
+        &:hover {
+          color: @primary;
+        }
       }
     }
 

@@ -203,19 +203,19 @@ footer .footer-cards {
 }
 @media (max-width: 800px) {
   footer .footer-cards {
-    min-width: 90%;
+    width: 90%;
   }
 }
 footer .footer-cards section {
   height: 70%;
 }
-footer .footer-cards h1 {
+footer .footer-cards section h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 600;
   font-size: 1.25rem;
   letter-spacing: 1px;
 }
-footer .footer-cards a {
+footer .footer-cards section a {
   display: block;
   text-decoration: none;
   color: white;
@@ -225,11 +225,11 @@ footer .footer-cards a {
   margin: 1em 0;
   color: lightgrey;
 }
-footer .footer-cards a :any-link {
+footer .footer-cards section a :any-link {
   color: white;
   text-decoration: none;
 }
-footer .footer-cards a:hover {
+footer .footer-cards section a:hover {
   color: white;
 }
 footer .footer-cards .social-media a {
