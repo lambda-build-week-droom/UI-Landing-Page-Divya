@@ -1,4 +1,4 @@
-.our-team {
+.team-cards {
   .flex(row, space-around);
   @media @desktop {
     flex-wrap: wrap;
@@ -25,6 +25,15 @@
     p {
       .font('Open Sans', sans-serif);
       text-align: center;
+    }
+
+    a {
+      .anchor();
+      .font('Open Sans', sans-serif; 100; 1.5rem);
+      color: @secondary;
+      &:hover {
+        color: @primary;
+      }
     }
 
     img {

@@ -189,18 +189,18 @@ html body {
   height: 150px;
   width: 150px;
 }
-.our-team {
+.team-cards {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
 @media (max-width: 1500px) {
-  .our-team {
+  .team-cards {
     flex-wrap: wrap;
   }
 }
-.our-team section {
+.team-cards section {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -211,25 +211,40 @@ html body {
   padding: 20px;
   border-radius: 30px;
 }
-.our-team section h1 {
+.team-cards section h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 1.25rem;
   text-align: center;
 }
-.our-team section h2 {
+.team-cards section h2 {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 1.5rem;
   text-align: center;
 }
-.our-team section p {
+.team-cards section p {
   font-family: 'Open Sans';
   font-weight: sans-serif;
   font-size: 1rem;
   text-align: center;
 }
-.our-team section img {
+.team-cards section a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  font-size: 1.5rem;
+  color: #d3d3d3;
+}
+.team-cards section a :any-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+.team-cards section a:hover {
+  color: #ffffff;
+}
+.team-cards section img {
   height: 300px;
   width: 300px;
   object-fit: cover;
