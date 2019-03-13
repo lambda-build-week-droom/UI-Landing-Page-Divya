@@ -18,8 +18,19 @@ footer {
     letter-spacing: 1px;
   }
 
-  p {
+  a {
+    display: block;
+    .anchor();
     .font('Open Sans', sans-serif; 100; 0.9rem);
+    margin: 1em 0;
+    color: @secondary;
+    &:hover {
+      color: @primary;
+    }
+  }
+
+  p {
+    .font('Open Sans', sans-serif; 100; 0.8rem);
     color: @secondary;
   }
 }
