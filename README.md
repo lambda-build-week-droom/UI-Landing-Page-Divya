@@ -1,6 +1,24 @@
 # UI-Landing-Page-Divya
 
-> Landing page deployment link: https://droom.netlify.com/
+# Installation Instructions
+
+**Landing page deployment link:** 
+https://droom.netlify.com/
+
+This website is written in HTML, JS, and LESS (CSS preprocessor). A double-click on `index.html` or a drag-and-drop of that file onto the browser will run the website. 
+
+Follow the instructions below to install [LESS](http://lesscss.org/) and its [Watch Compiler](https://www.npmjs.com/package/less-watch-compiler).
+
+```bash
+npm install -g less
+npm install -g less-watch-compiler
+```
+
+To edit and compile LESS files, run:
+```bash
+cd styles
+less-watch-compiler less css index.less
+```
 
 # Proposal
 
@@ -61,6 +79,8 @@
 
 - A target (e.g. JSON format or such) for output that DS students can deliver to web/other students for them to ingest and use in the app
 
+> Does not apply to our team.
+
 # Target Audience
 
 - Who is your target audience? Be specific.
@@ -77,7 +97,7 @@
 
 Research
 
-- Research thoroughly before writing a single line of code. Solidify the features of your app conceptually before implementation. Spend the weekend researching so you can hit the ground running on Monday.
+- [x] Research thoroughly before writing a single line of code. Solidify the features of your app conceptually before implementation. Spend the weekend researching so you can hit the ground running on Monday.
 
 # Prototype Key Feature(s)
 
