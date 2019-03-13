@@ -6,11 +6,16 @@ html body {
   margin: 0;
 }
 .banner {
-  background-size: cover;
-  background-position: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../../images/banner.jpg');
   height: 700px;
   color: #ffffff;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../../images/banner-medium.jpeg');
+}
+@media (max-width: 500px) {
+  .banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../../images/banner-small.jpeg');
+  }
 }
 .banner header {
   display: flex;

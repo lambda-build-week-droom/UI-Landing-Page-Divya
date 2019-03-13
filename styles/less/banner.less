@@ -1,10 +1,15 @@
 .banner {
+  height: 700px;
+  color: @primary;
   background-size: cover;
   background-position: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url('../../images/banner.jpg');
-  height: 700px;
-  color: @primary;
+    url('../../images/banner-medium.jpeg');
+  @media @mobile {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('../../images/banner-small.jpeg');
+  }
+
 
   header {
     .flex(row, space-between);
