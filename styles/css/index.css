@@ -10,7 +10,7 @@ html body {
   background-position: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../../images/banner.jpg');
   height: 700px;
-  color: white;
+  color: #ffffff;
 }
 .banner header {
   display: flex;
@@ -23,11 +23,11 @@ html body {
   font-weight: 600;
   font-size: 2.75rem;
   text-decoration: none;
-  color: white;
+  color: #ffffff;
   margin-left: 20px;
 }
 .banner header #logo :any-link {
-  color: white;
+  color: #ffffff;
   text-decoration: none;
 }
 .banner header .header-right {
@@ -54,13 +54,13 @@ html body {
 }
 .banner header .header-right a {
   text-decoration: none;
-  color: white;
+  color: #ffffff;
   font-family: 'Open Sans';
   font-weight: sans-serif;
   font-size: 1rem;
 }
 .banner header .header-right a :any-link {
-  color: white;
+  color: #ffffff;
   text-decoration: none;
 }
 .banner header .header-right a:hover {
@@ -76,7 +76,7 @@ html body {
   letter-spacing: 1px;
   border-radius: 30px;
   border: 3px solid #5bc0be;
-  color: white;
+  color: #ffffff;
   text-transform: uppercase;
   cursor: pointer;
   background-color: transparent;
@@ -111,7 +111,7 @@ html body {
   letter-spacing: 2px;
   border-radius: 30px;
   border: 3px solid #5bc0be;
-  color: white;
+  color: #ffffff;
   text-transform: uppercase;
   cursor: pointer;
   background-color: #5bc0be;
@@ -161,12 +161,12 @@ html body {
   width: 350px;
   margin: 20px;
   padding: 20px;
-  box-shadow: 0px 0px 15px 0px lightgrey;
+  box-shadow: 0px 0px 15px 0px #d3d3d3;
   border-radius: 30px;
   transition: background-color 0.3s ease-in;
 }
 #how-it-works .how-cards section:hover {
-  background-color: lightgrey;
+  background-color: #f5f5f5;
 }
 #how-it-works .how-cards section h1 {
   font-family: 'Roboto', sans-serif;
@@ -190,7 +190,7 @@ footer {
   justify-content: space-evenly;
   align-items: center;
   height: 300px;
-  color: white;
+  color: #ffffff;
   background-color: #2e4053;
 }
 footer .footer-cards {
@@ -218,19 +218,19 @@ footer .footer-cards section h1 {
 footer .footer-cards section a {
   display: block;
   text-decoration: none;
-  color: white;
+  color: #ffffff;
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;
   font-size: 0.9rem;
   margin: 1em 0;
-  color: lightgrey;
+  color: #d3d3d3;
 }
 footer .footer-cards section a :any-link {
-  color: white;
+  color: #ffffff;
   text-decoration: none;
 }
 footer .footer-cards section a:hover {
-  color: white;
+  color: #ffffff;
 }
 footer .footer-cards .social-media a {
   text-decoration: none;
@@ -242,18 +242,18 @@ footer .footer-cards .social-media a {
   font-weight: 100;
   font-size: 1.25rem;
   margin-right: 10px;
-  color: white;
+  color: #ffffff;
 }
 footer .footer-cards .social-media a :any-link {
-  color: white;
+  color: #ffffff;
   text-decoration: none;
 }
 footer .footer-cards .social-media a:hover {
-  color: lightgrey;
+  color: #d3d3d3;
 }
 footer p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;
   font-size: 0.8rem;
-  color: lightgrey;
+  color: #d3d3d3;
 }
