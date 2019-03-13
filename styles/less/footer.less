@@ -6,26 +6,43 @@ footer {
 
   .footer-cards {
     .flex(row, space-evenly);
+    height: 70%;
+    min-width: 70%;
     @media @tablet {
       min-width: 90%;
     }
-    min-width: 70%;
-    height: 70%;
-  }
 
-  h1 {
-    .font('Roboto', sans-serif; 600; 1.25rem);
-    letter-spacing: 1px;
-  }
+    section {
+      height: 70%;
+    }
 
-  a {
-    display: block;
-    .anchor();
-    .font('Open Sans', sans-serif; 100; 0.9rem);
-    margin: 1em 0;
-    color: @secondary;
-    &:hover {
-      color: @primary;
+    h1 {
+      .font('Roboto', sans-serif; 600; 1.25rem);
+      letter-spacing: 1px;
+    }
+
+    a {
+      display: block;
+      .anchor();
+      .font('Open Sans', sans-serif; 100; 0.9rem);
+      margin: 1em 0;
+      color: @secondary;
+      &:hover {
+        color: @primary;
+      }
+    }
+
+    .social-media {
+      a {
+        .anchor();
+        .flex(row, space-between, inline-flex);
+        .font('Open Sans', sans-serif; 100; 1.25rem);
+        margin-right: 10px;
+        color: @primary;
+        &:hover {
+          color: @secondary;
+        }
+      }
     }
   }
 

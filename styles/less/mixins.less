@@ -4,8 +4,8 @@
   font-size: @size;
 }
 
-.flex(@dir, @justify, @align: center) {
-  display: flex;
+.flex(@dir, @justify, @display: flex, @align: center) {
+  display: @display;
   flex-direction: @dir;
   justify-content: @justify;
   align-items: @align;

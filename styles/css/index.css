@@ -198,21 +198,24 @@ footer .footer-cards {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  min-width: 70%;
   height: 70%;
+  min-width: 70%;
 }
 @media (max-width: 800px) {
   footer .footer-cards {
     min-width: 90%;
   }
 }
-footer h1 {
+footer .footer-cards section {
+  height: 70%;
+}
+footer .footer-cards h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 600;
   font-size: 1.25rem;
   letter-spacing: 1px;
 }
-footer a {
+footer .footer-cards a {
   display: block;
   text-decoration: none;
   color: white;
@@ -222,12 +225,31 @@ footer a {
   margin: 1em 0;
   color: lightgrey;
 }
-footer a :any-link {
+footer .footer-cards a :any-link {
   color: white;
   text-decoration: none;
 }
-footer a:hover {
+footer .footer-cards a:hover {
   color: white;
+}
+footer .footer-cards .social-media a {
+  text-decoration: none;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  font-size: 1.25rem;
+  margin-right: 10px;
+  color: white;
+}
+footer .footer-cards .social-media a :any-link {
+  color: white;
+  text-decoration: none;
+}
+footer .footer-cards .social-media a:hover {
+  color: lightgrey;
 }
 footer p {
   font-family: 'Open Sans', sans-serif;
