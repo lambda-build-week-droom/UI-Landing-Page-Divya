@@ -251,6 +251,11 @@ html body {
   font-weight: 400;
   font-size: 1.25rem;
 }
+@media (max-width: 800px) {
+  .our-team p {
+    text-align: center;
+  }
+}
 .our-team .team-cards {
   display: flex;
   flex-direction: row;
