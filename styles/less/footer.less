@@ -1,19 +1,32 @@
 footer {
   .flex(column, space-evenly);
-  height: 300px;
+
+  height: 350px;
+  @media @mobile {
+    height: auto;
+  }
+
   color: @primary;
   background-color: @bg-primary;
 
   .footer-cards {
-    .flex(row, space-evenly);
-    height: 70%;
+    .flex(row, space-around);
+    @media @mobile {
+      flex-wrap: wrap;
+    }
+
     min-width: 70%;
     @media @tablet {
-      width: 90%;
+      width: 100%;
+    }
+    @media @mobile {
+      width: 100%;
     }
 
     section {
-      height: 70%;
+      .flex(column, flex-start);
+      height: 200px;
+      width: 200px;
 
       h1 {
         .font('Roboto', sans-serif; 600; 1.25rem);
