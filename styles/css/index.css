@@ -189,18 +189,75 @@ html body {
   height: 150px;
   width: 150px;
 }
-.team-cards {
+.team-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2e4053;
+  padding: 0 20px;
+}
+.team-header #logo {
+  font-family: 'Yellowtail', cursive;
+  font-weight: 600;
+  font-size: 2.75rem;
+  text-decoration: none;
+  color: #ffffff;
+}
+.team-header #logo :any-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+.team-header .login {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 900;
+  font-size: 0.8rem;
+  width: 100px;
+  height: 40px;
+  letter-spacing: 1px;
+  border-radius: 30px;
+  border: 3px solid #5bc0be;
+  color: #ffffff;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: transparent;
+  transition: background-color 0.2s ease-in;
+}
+.team-header .login:focus {
+  outline: 0;
+}
+.team-header .login:hover {
+  background-color: rgba(91, 192, 190, 0.3);
+}
+.our-team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+}
+@media (max-width: 1500px) {
+  .our-team {
+    height: auto;
+  }
+}
+.our-team h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 2rem;
+}
+.our-team .team-cards {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
 @media (max-width: 1500px) {
-  .team-cards {
+  .our-team .team-cards {
     flex-wrap: wrap;
   }
 }
-.team-cards section {
+.our-team .team-cards section {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -209,27 +266,26 @@ html body {
   width: 350px;
   margin: 20px;
   padding: 20px;
-  border-radius: 30px;
 }
-.team-cards section h1 {
+.our-team .team-cards section h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 1.25rem;
   text-align: center;
 }
-.team-cards section h2 {
+.our-team .team-cards section h2 {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 1.5rem;
   text-align: center;
 }
-.team-cards section p {
+.our-team .team-cards section p {
   font-family: 'Open Sans';
   font-weight: sans-serif;
   font-size: 1rem;
   text-align: center;
 }
-.team-cards section a {
+.our-team .team-cards section a {
   text-decoration: none;
   color: #ffffff;
   font-family: 'Open Sans', sans-serif;
@@ -237,14 +293,14 @@ html body {
   font-size: 1.5rem;
   color: #d3d3d3;
 }
-.team-cards section a :any-link {
+.our-team .team-cards section a :any-link {
   color: #ffffff;
   text-decoration: none;
 }
-.team-cards section a:hover {
+.our-team .team-cards section a:hover {
   color: #ffffff;
 }
-.team-cards section img {
+.our-team .team-cards section img {
   height: 300px;
   width: 300px;
   object-fit: cover;
