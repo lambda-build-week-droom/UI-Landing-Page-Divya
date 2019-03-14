@@ -42,7 +42,7 @@ html body {
   align-items: center;
   width: 20%;
 }
-@media (max-width: 1500px) {
+@media (max-width: 1600px) {
   .banner header .header-right {
     width: 30%;
   }
@@ -136,7 +136,7 @@ html body {
   height: 700px;
   width: 100%;
 }
-@media (max-width: 1500px) {
+@media (max-width: 1600px) {
   #how-it-works {
     height: auto;
   }
@@ -152,7 +152,7 @@ html body {
   justify-content: center;
   align-items: center;
 }
-@media (max-width: 1500px) {
+@media (max-width: 1600px) {
   #how-it-works .how-cards {
     flex-wrap: wrap;
   }
@@ -236,7 +236,7 @@ html body {
   align-items: center;
   height: 800px;
 }
-@media (max-width: 1500px) {
+@media (max-width: 1600px) {
   .our-team {
     height: auto;
   }
@@ -262,7 +262,7 @@ html body {
   justify-content: space-around;
   align-items: center;
 }
-@media (max-width: 1500px) {
+@media (max-width: 1600px) {
   .our-team .team-cards {
     flex-wrap: wrap;
   }
